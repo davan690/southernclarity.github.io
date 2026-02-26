@@ -7,14 +7,22 @@ project:
 
 website:
   title: Southern Clarity New Zealand
-  description: "Southern Clarity is a New Zealand-based company specialising in reproducable workflows and data science solutions. We are passionate about helping our clients achieve clarity and insight from their data, enabling them to make informed decisions and drive innovation."
+  description: "Southern Clarity is a New Zealand-based company specialising in reproducible workflows and data science solutions. We are passionate about helping clients achieve clarity and insight from their data, enabling informed decisions and innovation."
   favicon: favicon.ico
   navbar:
+    title: false
     left:
       - href: index.qmd
         text: Home
       - href: contact.qmd
         text: Contact
+    right:
+      - icon: github
+        href: https://github.com/southernclarity/southernclarity.github.io
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/
+        aria-label: LinkedIn
   page-footer:
     center: "© 2026 Southern Clarity NZ LTD. All rights reserved."
 
@@ -22,4 +30,5 @@ format:
   html:
     theme: default
     css: blog.css
+    include-after-body: theme-toggle.js
     toc: false

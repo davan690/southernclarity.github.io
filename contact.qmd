@@ -3,7 +3,13 @@ title: "Contact"
 ---
 
 ::: {.section .container}
-Send a note and we’ll reply soon.
+If you have a project, decision process, or analytical workflow that needs stronger evidence support, send us a note and we’ll reply soon.
+
+You can use this form to discuss:
+
+- statistical modelling and uncertainty analysis
+- reproducible data workflows and reporting pipelines
+- dashboard and interactive decision-support tool development
 
 <form class="contact-form" action="#" method="post">
   <label for="name">Name</label>

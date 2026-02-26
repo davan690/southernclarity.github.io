@@ -4,20 +4,41 @@
     "href": "contact.html",
     "title": "Contact",
     "section": "",
-    "text": "Send a note and we’ll reply soon.\n\nName \nEmail \nMessage\n\n\nSend"
+    "text": "If you have a project, decision process, or analytical workflow that needs stronger evidence support, send us a note and we’ll reply soon.\nYou can use this form to discuss:\n\nstatistical modelling and uncertainty analysis\nreproducible data workflows and reporting pipelines\ndashboard and interactive decision-support tool development\n\n\nName \nEmail \nMessage\n\n\nSend"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Practical AI for small business",
+    "title": "Statistics and Decision Support",
     "section": "",
-    "text": "Landing Page\n\n\n\nSouthern Clarity helps teams adopt AI with clear, practical solutions that save time and improve decisions.\n\nTalk to us What we focus on"
+    "text": "Statistics and decision support consultancy\n\n\n\nSouthern Clarity NZ is a New Zealand-based statistics and decision-support consultancy helping organisations turn complex data into evidence that supports confident decisions.\n\nTalk to us What we do"
   },
   {
-    "objectID": "index.html#what-we-focus-on",
-    "href": "index.html#what-we-focus-on",
-    "title": "Practical AI for small business",
-    "section": "What we focus on",
-    "text": "What we focus on\n\n\nAutomation\nCut repetitive work with lightweight AI-powered workflows.\n\n\nKnowledge\nTurn company documents into quick, searchable answers.\n\n\nSupport\nDeploy assistant experiences tailored to your customers."
+    "objectID": "index.html#what-we-do",
+    "href": "index.html#what-we-do",
+    "title": "Statistics and Decision Support",
+    "section": "What we do",
+    "text": "What we do\nWe deliver end-to-end analytical solutions, combining rigorous statistical modelling, reproducible workflows, and carefully applied AI-assisted tools with interactive decision-support systems that evolve as new data and questions emerge.\n\n\nStatistical modelling\nBuild robust inferential and predictive models for complex, high-uncertainty decisions.\n\n\nDecision-support tools\nDesign interactive dashboards and scenario tools that help teams compare options and act faster.\n\n\nReproducible analytics\nImplement transparent, auditable workflows that update as new data and management questions emerge."
+  },
+  {
+    "objectID": "index.html#our-philosophy",
+    "href": "index.html#our-philosophy",
+    "title": "Statistics and Decision Support",
+    "section": "Our philosophy",
+    "text": "Our philosophy\n\nClarity, rigour, and client ownership are central to every engagement.\n\n\n\nClient ownership\nYou retain full ownership of your data, code, and tools.\n\n\nTransparent methods\nApproaches are documented, reproducible, and easy to communicate to technical and non-technical audiences.\n\n\nDecision-ready outputs\nDeliverables are designed to support real decisions, not just static analysis reports."
+  },
+  {
+    "objectID": "index.html#selected-work",
+    "href": "index.html#selected-work",
+    "title": "Statistics and Decision Support",
+    "section": "Selected work",
+    "text": "Selected work\n\n\n\n\n\nQGIS workshop with Trap & Trigger Ltd\n\n\n\nQGIS workshop for Trap & Trigger Ltd\nBuilt reusable mapping workflows for operational teams, including data import standards, geoprocessing patterns, and export-ready outputs to reduce repeated manual steps.\n\n\n\n\n\n\nKakī population modelling support\n\n\n\nKakī population modelling for the Department of Conservation\nDeveloped an integrated modelling framework to support long-term planning, quantify uncertainty, and identify where management effort can have the greatest impact."
+  },
+  {
+    "objectID": "index.html#who-we-are",
+    "href": "index.html#who-we-are",
+    "title": "Statistics and Decision Support",
+    "section": "Who we are",
+    "text": "Who we are\nSouthern Clarity NZ was co-founded in 2025. Our work is led by strong applied consulting experience in statistical modelling, decision support, and production-ready analytical tool development.\nStefan brings 9+ years of consulting and delivery experience across government and industry contexts, with specialist capability in Bayesian modelling, advanced statistical analysis, and reproducible workflow design.\n\nCore tools: R, QGIS, GitHub, Docker, and carefully applied AI-assisted tooling where it improves delivery quality and scalability."
   }
 ]
