@@ -11,16 +11,7 @@ You can use this form to discuss:
 - reproducible data workflows and reporting pipelines
 - dashboard and interactive decision-support tool development
 
-<form class="contact-form" action="#" method="post">
-  <label for="name">Name</label>
-  <input id="name" name="name" type="text" required>
-
-  <label for="email">Email</label>
-  <input id="email" name="email" type="email" required>
-
-  <label for="message">Message</label>
-  <textarea id="message" name="message" rows="6" required></textarea>
-
-  <button class="button" type="submit">Send</button>
-</form>
+::: {.contact-form-embed}
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSflMSCkD7V5EHzP6s8HobP6YRhNtr8Ji3t6Q5Ky5HDuzbse7g/viewform?embedded=true" width="100%" height="1260" frameborder="0" marginheight="0" marginwidth="0" loading="lazy">Loading…</iframe>
+:::
 :::
