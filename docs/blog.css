@@ -224,6 +224,10 @@ body {
   padding: 48px 0;
 }
 
+.section-heading-spacer {
+  height: 2.5rem;
+}
+
 .template-grid {
   margin-top: 1rem;
   display: grid;
@@ -299,6 +303,21 @@ body {
   gap: 10px;
 }
 
+.contact-form-embed {
+  margin-top: 1rem;
+  width: 100%;
+  max-width: 760px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.contact-form-embed iframe {
+  display: block;
+  width: 100%;
+}
+
 .contact-form input,
 .contact-form textarea {
   width: 100%;
@@ -330,30 +349,9 @@ body {
 .footer {
   border-top: 1px solid #e5e7eb;
   background: #ffffff;
-  padding: 0;
+  padding: 18px 0;
   color: #6b7280;
   font-size: 0.95rem;
-}
-
-.footer .nav-footer {
-  min-height: 64px;
-  display: flex;
-  align-items: center;
-}
-
-.footer .nav-footer p {
-  margin: 0;
-}
-
-.footer .nav-footer-center {
-  display: flex;
-  align-items: center;
-  line-height: 1.2;
-}
-
-.footer .nav-footer-center p {
-  position: relative;
-  top: -1px;
 }
 
 main.content {
@@ -426,6 +424,11 @@ body.theme-dark .contact-form textarea {
   background: #111827;
   color: #e5e7eb;
   border: 1px solid #4b5563;
+}
+
+body.theme-dark .contact-form-embed {
+  background: #1f2937;
+  border: 1px solid #374151;
 }
 
 body.theme-dark .site-footer,

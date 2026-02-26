@@ -21,7 +21,9 @@ Southern Clarity NZ is a New Zealand-based statistics and decision-support consu
 :::
 
 ::: {.section .container #what-we-do}
-## What we do
+
+::: {.section-heading-spacer aria-hidden="true"}
+:::
 
 We deliver end-to-end analytical solutions, combining rigorous statistical modelling, reproducible workflows, and carefully applied AI-assisted tools with interactive decision-support systems that evolve as new data and questions emerge.
 
