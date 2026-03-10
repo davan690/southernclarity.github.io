@@ -75,14 +75,14 @@ Deliverables are designed to support real decisions, not just static analysis re
 
 ::: {.case-grid}
 ::: {.case-card}
-![QGIS workshop with Trap & Trigger Ltd](images/post_jan_2026_2_qgis_workshop.jpeg){.case-image}
+<img src="images/post_jan_2026_2_qgis_workshop.jpeg" alt="QGIS workshop with Trap and Trigger Ltd" class="case-image">
 
 ### QGIS workshop for Trap & Trigger Ltd
 Built reusable mapping workflows for operational teams, including data import standards, geoprocessing patterns, and export-ready outputs to reduce repeated manual steps.
 :::
 
 ::: {.case-card}
-![Kakī population modelling support](images/post_jan_2026_1_kaki_1.jpg){.case-image}
+<img src="images/post_jan_2026_1_kaki_1.jpg" alt="Kaki population modelling support" class="case-image">
 
 ### Kakī population modelling for the Department of Conservation
 Developed an integrated modelling framework to support long-term planning, quantify uncertainty, and identify where management effort can have the greatest impact.
