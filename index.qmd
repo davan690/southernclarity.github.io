@@ -70,6 +70,31 @@ Deliverables are designed to support real decisions, not just static analysis re
 :::
 :::
 
+::: {.section .container #what-we-do-overview}
+## What we do
+
+::: {.section-intro}
+Placeholder intro text: add a short statement that summarises your service approach and the outcomes you deliver.
+:::
+
+::: {.template-grid}
+::: {.template-card}
+### Placeholder service area 1
+Placeholder copy: describe a core service, who it is for, and the decision it supports.
+:::
+
+::: {.template-card}
+### Placeholder service area 2
+Placeholder copy: add a short example, optional metric, or note where an image/case link could be placed.
+:::
+
+::: {.template-card}
+### Placeholder service area 3
+Placeholder copy: explain the delivery format (for example workshop, model, dashboard, or advisory support).
+:::
+:::
+:::
+
 ::: {.section .container #selected-work}
 ## Selected work
 
