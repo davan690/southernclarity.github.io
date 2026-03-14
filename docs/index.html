@@ -89,10 +89,6 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./selected_work.qmd"> 
-<span class="menu-text">Selected work</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
@@ -174,13 +170,16 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="selected-work" class="level2 container">
 <h2 class="anchored" data-anchor-id="selected-work">Selected work</h2>
-<div class="case-grid">
+<div class="selected-work-carousel">
+<button class="carousel-button carousel-button-prev" aria-label="Previous projects">
+‹
+</button>
+<div id="selected-work-track" class="case-carousel-track">
 <div class="case-card">
 <p><img src="images/post_jan_2026_2_qgis_workshop.jpeg" alt="QGIS workshop with Trap and Trigger Ltd" class="case-image"></p>
 <section id="qgis-workshop-for-trap-trigger-ltd" class="level3">
 <h3 class="anchored" data-anchor-id="qgis-workshop-for-trap-trigger-ltd"><a href="https://www.linkedin.com/posts/southern-clarity-nz_in-a-recent-hands-on-qgis-workshop-with-the-activity-7421274186452467712-lDe5?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAAEX2XBgBSKZE8R4cwRq-NoJ4vNfwr0Y45YI" class="case-title-link">QGIS workshop for Trap &amp; Trigger Ltd</a></h3>
 <p>Built reusable mapping workflows for operational teams, including data import standards, geoprocessing patterns, and export-ready outputs to reduce repeated manual steps.</p>
-<!-- **[Read more →](https://www.linkedin.com/posts/southern-clarity-nz_in-a-recent-hands-on-qgis-workshop-with-the-activity-7421274186452467712-lDe5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEX2XBgBSKZE8R4cwRq-NoJ4vNfwr0Y45YI){.case-read-more target="_blank" rel="noopener noreferrer"}** -->
 </section>
 </div>
 <div class="case-card">
@@ -188,9 +187,40 @@ ul.task-list li input[type="checkbox"] {
 <section id="kakī-population-modelling-for-the-department-of-conservation" class="level3">
 <h3 class="anchored" data-anchor-id="kakī-population-modelling-for-the-department-of-conservation"><a href="https://www.linkedin.com/posts/southern-clarity-nz_stefan-recently-had-the-opportunity-to-visit-activity-7418724129924685824-IL-B?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAAEX2XBgBSKZE8R4cwRq-NoJ4vNfwr0Y45YI" class="case-title-link">Kakī population modelling for the Department of Conservation</a></h3>
 <p>Developed an integrated modelling framework to support long-term planning, quantify uncertainty, and identify where management effort can have the greatest impact.</p>
-<!-- **[Read more →](https://www.linkedin.com/posts/southern-clarity-nz_stefan-recently-had-the-opportunity-to-visit-activity-7418724129924685824-IL-B?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEX2XBgBSKZE8R4cwRq-NoJ4vNfwr0Y45YI){.case-read-more target="_blank" rel="noopener noreferrer"}** -->
 </section>
 </div>
+<div class="case-card">
+<p><img src="images/post_jan_2026_2_qgis_workshop.jpeg" alt="Dummy project" class="case-image"></p>
+<section id="dummy-project-spatial-monitoring-dashboard" class="level3">
+<h3 class="anchored" data-anchor-id="dummy-project-spatial-monitoring-dashboard">Dummy project – Spatial monitoring dashboard</h3>
+<p>Developed an interactive spatial dashboard to visualise monitoring effort, summarise detection data, and support operational planning across management regions.</p>
+</section>
+</div>
+<div class="case-card">
+<p><img src="images/post_jan_2026_1_kaki_1.jpg" alt="Dummy project" class="case-image"></p>
+<section id="dummy-project-species-distribution-modelling" class="level3">
+<h3 class="anchored" data-anchor-id="dummy-project-species-distribution-modelling">Dummy project – Species distribution modelling</h3>
+<p>Built predictive habitat models integrating multiple monitoring datasets to estimate distribution patterns and support regional conservation planning.</p>
+</section>
+</div>
+<div class="case-card">
+<p><img src="images/post_jan_2026_2_qgis_workshop.jpeg" alt="Dummy project" class="case-image"></p>
+<section id="dummy-project-data-integration-pipeline" class="level3">
+<h3 class="anchored" data-anchor-id="dummy-project-data-integration-pipeline">Dummy project – Data integration pipeline</h3>
+<p>Designed a reproducible analytical pipeline combining multiple monitoring databases into a single harmonised dataset for reporting and modelling.</p>
+</section>
+</div>
+<div class="case-card">
+<p><img src="images/post_jan_2026_1_kaki_1.jpg" alt="Dummy project" class="case-image"></p>
+<section id="dummy-project-decision-support-tool" class="level3">
+<h3 class="anchored" data-anchor-id="dummy-project-decision-support-tool">Dummy project – Decision-support tool</h3>
+<p>Created a scenario exploration tool allowing managers to compare intervention strategies and evaluate potential long-term outcomes.</p>
+</section>
+</div>
+</div>
+<button class="carousel-button carousel-button-next" aria-label="Next projects">
+›
+</button>
 </div>
 </section>
 <section id="philosophy" class="container">
@@ -224,6 +254,61 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Core tools:</strong> R, QGIS, GitHub, Docker, and carefully applied AI-assisted tooling where it improves delivery quality and scalability.</p>
 </div>
 </section>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const track = document.getElementById("selected-work-track");
+  const prev = document.querySelector(".carousel-button-prev");
+  const next = document.querySelector(".carousel-button-next");
+
+  if (!track || !prev || !next) return;
+
+  const cards = track.querySelectorAll(".case-card");
+
+  function getCardWidth() {
+    const firstCard = cards[0];
+    const gap = 16; // must match CSS gap
+    return firstCard.getBoundingClientRect().width + gap;
+  }
+
+  function maxScroll() {
+    return track.scrollWidth - track.clientWidth;
+  }
+
+  prev.addEventListener("click", function () {
+
+    if (track.scrollLeft <= 0) {
+      track.scrollTo({
+        left: maxScroll(),
+        behavior: "smooth"
+      });
+    } else {
+      track.scrollBy({
+        left: -getCardWidth(),
+        behavior: "smooth"
+      });
+    }
+
+  });
+
+  next.addEventListener("click", function () {
+
+    if (track.scrollLeft >= maxScroll() - 5) {
+      track.scrollTo({
+        left: 0,
+        behavior: "smooth"
+      });
+    } else {
+      track.scrollBy({
+        left: getCardWidth(),
+        behavior: "smooth"
+      });
+    }
+
+  });
+
+});
+</script>
 
 
 

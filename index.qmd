@@ -52,26 +52,70 @@ Implement transparent, auditable workflows that update as new data and managemen
 ::: {.section .container #selected-work}
 ## Selected work
 
-::: {.case-grid}
+<div class="selected-work-carousel">
+
+<button class="carousel-button carousel-button-prev" aria-label="Previous projects">
+‹
+</button>
+
+<div class="case-carousel-track" id="selected-work-track">
+
 ::: {.case-card}
 <img src="images/post_jan_2026_2_qgis_workshop.jpeg" alt="QGIS workshop with Trap and Trigger Ltd" class="case-image">
 
-### [QGIS workshop for Trap & Trigger Ltd](https://www.linkedin.com/posts/southern-clarity-nz_in-a-recent-hands-on-qgis-workshop-with-the-activity-7421274186452467712-lDe5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEX2XBgBSKZE8R4cwRq-NoJ4vNfwr0Y45YI){.case-title-link} 
-Built reusable mapping workflows for operational teams, including data import standards, geoprocessing patterns, and export-ready outputs to  reduce repeated manual steps. 
+### [QGIS workshop for Trap & Trigger Ltd](https://www.linkedin.com/posts/southern-clarity-nz_in-a-recent-hands-on-qgis-workshop-with-the-activity-7421274186452467712-lDe5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEX2XBgBSKZE8R4cwRq-NoJ4vNfwr0Y45YI){.case-title-link}
 
-<!-- **[Read more →](https://www.linkedin.com/posts/southern-clarity-nz_in-a-recent-hands-on-qgis-workshop-with-the-activity-7421274186452467712-lDe5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEX2XBgBSKZE8R4cwRq-NoJ4vNfwr0Y45YI){.case-read-more target="_blank" rel="noopener noreferrer"}** -->
+Built reusable mapping workflows for operational teams, including data import standards, geoprocessing patterns, and export-ready outputs to reduce repeated manual steps.
 :::
 
 ::: {.case-card}
 <img src="images/post_jan_2026_1_kaki_1.jpg" alt="Kaki population modelling support" class="case-image">
 
-### [Kakī population modelling for the Department of Conservation](https://www.linkedin.com/posts/southern-clarity-nz_stefan-recently-had-the-opportunity-to-visit-activity-7418724129924685824-IL-B?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEX2XBgBSKZE8R4cwRq-NoJ4vNfwr0Y45YI){.case-title-link} 
+### [Kakī population modelling for the Department of Conservation](https://www.linkedin.com/posts/southern-clarity-nz_stefan-recently-had-the-opportunity-to-visit-activity-7418724129924685824-IL-B?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEX2XBgBSKZE8R4cwRq-NoJ4vNfwr0Y45YI){.case-title-link}
+
 Developed an integrated modelling framework to support long-term planning, quantify uncertainty, and identify where management effort can have the greatest impact.
-
-<!-- **[Read more →](https://www.linkedin.com/posts/southern-clarity-nz_stefan-recently-had-the-opportunity-to-visit-activity-7418724129924685824-IL-B?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEX2XBgBSKZE8R4cwRq-NoJ4vNfwr0Y45YI){.case-read-more target="_blank" rel="noopener noreferrer"}** -->
-
 :::
+
+::: {.case-card}
+<img src="images/post_jan_2026_2_qgis_workshop.jpeg" alt="Dummy project" class="case-image">
+
+### Dummy project – Spatial monitoring dashboard
+
+Developed an interactive spatial dashboard to visualise monitoring effort, summarise detection data, and support operational planning across management regions.
 :::
+
+::: {.case-card}
+<img src="images/post_jan_2026_1_kaki_1.jpg" alt="Dummy project" class="case-image">
+
+### Dummy project – Species distribution modelling
+
+Built predictive habitat models integrating multiple monitoring datasets to estimate distribution patterns and support regional conservation planning.
+:::
+
+::: {.case-card}
+<img src="images/post_jan_2026_2_qgis_workshop.jpeg" alt="Dummy project" class="case-image">
+
+### Dummy project – Data integration pipeline
+
+Designed a reproducible analytical pipeline combining multiple monitoring databases into a single harmonised dataset for reporting and modelling.
+:::
+
+::: {.case-card}
+<img src="images/post_jan_2026_1_kaki_1.jpg" alt="Dummy project" class="case-image">
+
+### Dummy project – Decision-support tool
+
+Created a scenario exploration tool allowing managers to compare intervention strategies and evaluate potential long-term outcomes.
+:::
+
+</div>
+
+<button class="carousel-button carousel-button-next" aria-label="Next projects">
+›
+</button>
+
+</div>
+
 :::
 
 ::: {.section .container #philosophy}
@@ -113,3 +157,60 @@ Anthony holds a masters degree in Ecology from the University of Otago, New Zeal
 **Core tools:** R, QGIS, GitHub, Docker, and carefully applied AI-assisted tooling where it improves delivery quality and scalability.
 :::
 :::
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const track = document.getElementById("selected-work-track");
+  const prev = document.querySelector(".carousel-button-prev");
+  const next = document.querySelector(".carousel-button-next");
+
+  if (!track || !prev || !next) return;
+
+  const cards = track.querySelectorAll(".case-card");
+
+  function getCardWidth() {
+    const firstCard = cards[0];
+    const gap = 16; // must match CSS gap
+    return firstCard.getBoundingClientRect().width + gap;
+  }
+
+  function maxScroll() {
+    return track.scrollWidth - track.clientWidth;
+  }
+
+  prev.addEventListener("click", function () {
+
+    if (track.scrollLeft <= 0) {
+      track.scrollTo({
+        left: maxScroll(),
+        behavior: "smooth"
+      });
+    } else {
+      track.scrollBy({
+        left: -getCardWidth(),
+        behavior: "smooth"
+      });
+    }
+
+  });
+
+  next.addEventListener("click", function () {
+
+    if (track.scrollLeft >= maxScroll() - 5) {
+      track.scrollTo({
+        left: 0,
+        behavior: "smooth"
+      });
+    } else {
+      track.scrollBy({
+        left: getCardWidth(),
+        behavior: "smooth"
+      });
+    }
+
+  });
+
+});
+</script>
