@@ -220,6 +220,7 @@ body {
   box-shadow: 0 14px 40px rgba(2, 6, 23, 0.34);
 }
 
+
 .eyebrow {
   margin: 0;
   font-size: 0.85rem;
@@ -549,4 +550,15 @@ body.theme-dark .footer .nav-footer-right {
 body.theme-dark .footer .nav-footer a:hover,
 body.theme-dark .footer .nav-footer a:focus {
   color: #e5e7eb;
+}
+
+.hero-media {
+  background-image: url("images/New_banner_image-1536.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-banner {
+  display: none;
 }

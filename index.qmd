@@ -15,7 +15,7 @@ Statistics and decision support consultancy
 
 # Southern Clarity NZ
 
-Southern Clarity NZ is a New Zealand-based statistics and decision-support consultancy helping organisations turn complex data into evidence that supports confident decisions.
+Southern Clarity NZ is a New Zealand-based statistical modelling and decision-support consultancy helping organisations turn complex environmental and operational data into evidence for confident decisions.
 
 ::: {.hero-actions}
 [Talk to us](contact.qmd){.button}
@@ -29,17 +29,17 @@ Southern Clarity NZ is a New Zealand-based statistics and decision-support consu
 ::: {.section-heading-spacer aria-hidden="true"}
 :::
 
-We deliver end-to-end analytical solutions, combining rigorous statistical modelling, reproducible workflows, and carefully applied AI-assisted tools with interactive decision-support systems that evolve as new data and questions emerge.
+We deliver end-to-end analytical solutions combining rigorous statistical modelling, reproducible workflows, and interactive decision-support tools.  Our systems evolve as new data becomes available and new management questions emerge.
 
 ::: {.template-grid}
 ::: {.template-card}
 ### Statistical modelling
-Build robust inferential and predictive models for complex, high-uncertainty decisions.
+Build robust inferential and predictive models to understand environmental systems, quantify uncertainty, and support evidence-based management decisions.
 :::
 
 ::: {.template-card}
 ### Decision-support tools
-Design interactive dashboards and scenario tools that help teams compare options and act faster.
+Design interactive dashboards and scenario tools that help teams explore data, compare management options, and act faster.
 :::
 
 ::: {.template-card}
@@ -122,9 +122,11 @@ Developed an integrated modelling framework to support long-term planning, quant
 ::: {.section .container #who-we-are}
 ## Who we are
 
-Southern Clarity NZ was co-founded in 2025. Our work is led by strong applied consulting experience in statistical modelling, decision support, and production-ready analytical tool development.
+Southern Clarity NZ was co-founded by Stefan Meyer and Anthony Davidson in 2025. Our work is led by strong applied consulting experience in statistical modelling, decision support, and production-ready analytical tool development.
 
-Stefan brings 9+ years of consulting and delivery experience across government and industry contexts, with specialist capability in Bayesian modelling, advanced statistical analysis, and reproducible workflow design.
+Stefan brings 9+ years of consulting and delivery experience across government and industry contexts, with specialist capability in Bayesian modelling, advanced statistical analysis, and reproducible workflow design. Stefan holds a PhD in Ecology from the University of Otago, New Zealand. EXPAND WITH MORE INFO
+
+Anthony holds a masters degree in Ecology from the University of Otago, New Zealand, and is a registered mathematics teacher. MORE INFO SUCH AS HIS ECOGOLOGY WORK, AI STUFF ETC.
 
 ::: {.tool-list}
 **Core tools:** R, QGIS, GitHub, Docker, and carefully applied AI-assisted tooling where it improves delivery quality and scalability.
