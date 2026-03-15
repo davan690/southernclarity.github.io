@@ -1,4 +1,6 @@
-# Selected work
+---
+title: "Selected work"
+---
 
 ::: {.case-grid}
 

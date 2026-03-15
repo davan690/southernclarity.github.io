@@ -19,6 +19,8 @@ body {
   margin: 0 auto;
 }
 
+
+
 .site-header,
 .navbar {
   background: #ffffff;
@@ -284,8 +286,9 @@ body {
 }
 
 .section {
-  padding: 48px 0;
+  padding: 64px 0;
 }
+
 
 .section-heading-spacer {
   height: 2.5rem;
@@ -449,6 +452,8 @@ body.theme-dark .carousel-button {
   color: #e5e7eb;
   border: 1px solid #374151;
 }
+
+
 
 @media (max-width: 900px) {
   .case-carousel-track {
@@ -669,3 +674,24 @@ body.theme-dark .footer .nav-footer a:focus {
 .landing-page main.content {
   grid-column: page-start / page-end !important;
 }
+
+.case-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.case-card p:last-child {
+  margin-top: auto;
+}
+
+.carousel-button {
+  width: 44px;
+  height: 74px;
+  font-size: 24px;
+}
+
+.anchorjs-link {
+  display: none !important;
+}
+

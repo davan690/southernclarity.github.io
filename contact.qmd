@@ -14,4 +14,6 @@ You can use this form to discuss:
 ::: {.contact-form-embed}
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSflMSCkD7V5EHzP6s8HobP6YRhNtr8Ji3t6Q5Ky5HDuzbse7g/viewform?embedded=true" title="Southern Clarity contact form" width="100%" frameborder="0" marginheight="0" marginwidth="0" loading="lazy">Loading...</iframe>
 :::
+
+Alternatively, you can contact us directly via email (southernclaritynz@gmail.com) or give us a call (+64 (0)220347817).
 :::
