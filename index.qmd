@@ -3,130 +3,227 @@ title: "Statistics and Decision Support"
 body-classes: landing-page
 ---
 
-::: {.hero}
-<div class="hero-media" aria-hidden="true">
-<img src="images/New_banner_image-1200.jpg" srcset="images/New_banner_image-768.jpg 768w, images/New_banner_image-1200.jpg 1200w, images/New_banner_image-1536.jpg 1536w" sizes="(max-width: 1087px) 92vw, 1000px" alt="" class="hero-banner" fetchpriority="high" decoding="async">
-</div>
+::::::: hero
+::: {.hero-media aria-hidden="true"}
+<img src="images/New_banner_image-1200.jpg" class="hero-banner" srcset="images/New_banner_image-768.jpg 768w, images/New_banner_image-1200.jpg 1200w, images/New_banner_image-1536.jpg 1536w" sizes="(max-width: 1087px) 92vw, 1000px" fetchpriority="high" decoding="async"/>
+:::
 
-::: {.container}
-::: {.eyebrow}
+::::: container
+::: eyebrow
 Statistics and decision support consultancy
 :::
 
 # Southern Clarity NZ
 
-Southern Clarity NZ is a New Zealand-based statistics and decision-support consultancy helping organisations turn complex data into evidence that supports confident decisions.
+Southern Clarity NZ is a New Zealand-based statistical modelling and decision-support consultancy helping organisations turn complex environmental and operational data into evidence for confident decisions.
 
-::: {.hero-actions}
-[Talk to us](contact.qmd){.button}
-[What we do](#what-we-do){.button .button-secondary}
+::: hero-actions
+[Talk to us](contact.qmd){.button} 
+<!-- [What we do](#what-we-do){.button .button-secondary} -->
 :::
-:::
-:::
+:::::
+:::::::
 
-::: {.section .container #what-we-do}
-
-::: {.section-heading-spacer aria-hidden="true"}
-:::
-
-We deliver end-to-end analytical solutions, combining rigorous statistical modelling, reproducible workflows, and carefully applied AI-assisted tools with interactive decision-support systems that evolve as new data and questions emerge.
-
-::: {.template-grid}
-::: {.template-card}
-### Statistical modelling
-Build robust inferential and predictive models for complex, high-uncertainty decisions.
-:::
-
-::: {.template-card}
-### Decision-support tools
-Design interactive dashboards and scenario tools that help teams compare options and act faster.
-:::
-
-::: {.template-card}
-### Reproducible analytics
-Implement transparent, auditable workflows that update as new data and management questions emerge.
-:::
-:::
-:::
-
-::: {.section .container #philosophy}
-## Our philosophy
-
-::: {.section-intro}
-Clarity, rigour, and client ownership are central to every engagement.
-:::
-
-::: {.template-grid}
-::: {.template-card}
-### Client ownership
-You retain full ownership of your data, code, and tools.
-:::
-
-::: {.template-card}
-### Transparent methods
-Approaches are documented, reproducible, and easy to communicate to technical and non-technical audiences.
-:::
-
-::: {.template-card}
-### Decision-ready outputs
-Deliverables are designed to support real decisions, not just static analysis reports.
-:::
-:::
-:::
-
-::: {.section .container #what-we-do-overview}
+::::::: {#what-we-do .section .container}
 ## What we do
 
-::: {.section-intro}
-Placeholder intro text: add a short statement that summarises your service approach and the outcomes you deliver.
+We deliver end-to-end analytical solutions combining rigorous statistical modelling, reproducible workflows, and interactive decision-support tools. Our systems evolve as new data becomes available and new management questions emerge.
+
+:::::: template-grid
+::: template-card
+### Statistical modelling
+
+Build robust inferential and predictive models to understand environmental systems, quantify uncertainty, and support evidence-based management decisions.
 :::
 
-::: {.template-grid}
-::: {.template-card}
-### Placeholder service area 1
-Placeholder copy: describe a core service, who it is for, and the decision it supports.
+::: template-card
+### Decision-support tools
+
+Design interactive dashboards and scenario tools that help teams explore data, compare management options, and act faster.
 :::
 
-::: {.template-card}
-### Placeholder service area 2
-Placeholder copy: add a short example, optional metric, or note where an image/case link could be placed.
-:::
+::: template-card
+### Reproducible analytics
 
-::: {.template-card}
-### Placeholder service area 3
-Placeholder copy: explain the delivery format (for example workshop, model, dashboard, or advisory support).
+Implement transparent, auditable workflows that update as new data and management questions emerge.
 :::
-:::
-:::
+::::::
+
+::: {.mt-4}
+**Tools & methods commonly used:** R · QGIS · GitHub · Docker · Bayesian and spatial modelling · Reproducible pipelines · Interactive dashboards · AI-assisted workflows
+::: 
+:::::::
+
+
 
 ::: {.section .container #selected-work}
 ## Selected work
 
-::: {.case-grid}
-::: {.case-card}
-<img src="images/post_jan_2026_2_qgis_workshop.jpeg" alt="QGIS workshop with Trap and Trigger Ltd" class="case-image">
+<div class="selected-work-carousel">
 
-### [QGIS workshop for Trap & Trigger Ltd](https://www.linkedin.com/posts/southern-clarity-nz_in-a-recent-hands-on-qgis-workshop-with-the-activity-7421274186452467712-lDe5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEX2XBgBSKZE8R4cwRq-NoJ4vNfwr0Y45YI){.case-title-link} <a href="https://www.linkedin.com/posts/southern-clarity-nz_in-a-recent-hands-on-qgis-workshop-with-the-activity-7421274186452467712-lDe5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEX2XBgBSKZE8R4cwRq-NoJ4vNfwr0Y45YI" class="case-title-icon" target="_blank" rel="noopener noreferrer" aria-label="Open LinkedIn post"><i class="bi bi-link-45deg" aria-hidden="true"></i></a>
-Built reusable mapping workflows for operational teams, including data import standards, geoprocessing patterns, and export-ready outputs to reduce repeated manual steps. [Read more](https://www.linkedin.com/posts/southern-clarity-nz_in-a-recent-hands-on-qgis-workshop-with-the-activity-7421274186452467712-lDe5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEX2XBgBSKZE8R4cwRq-NoJ4vNfwr0Y45YI){.button .case-read-more target="_blank" rel="noopener noreferrer"}
+<button class="carousel-button carousel-button-prev" aria-label="Previous projects">
+‹
+</button>
+
+<div id="selected-work-track" class="case-carousel-track">
+
+<div class="case-card">
+  <video class="case-image" autoplay muted loop playsinline poster="images/tnt_pin_manager_post.jpeg">
+    <source src="videos/Pin_dashboard_demo_linkedIn.mp4" type="video/mp4">
+  </video>
+
+  <h3>Operational spatial dashboard</h3>
+
+  <p>Built an interactive spatial dashboard for Trap &amp; Trigger Ltd that integrates field activity data into a map-based interface, helping teams visualise operational coverage and manage project data in real time.</p>
+
+  <p><a href="https://www.linkedin.com/posts/southern-clarity-nz_conservationtechnology-spatialdata-environmentaldata-activity-7438997562772328448-MJRp?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEV75U4BMrAtWXU4q181GGaTRUVxcjTrtwI" target="_blank" rel="noopener noreferrer">View LinkedIn post →</a></p>
+</div>
+
+<div class="case-card">
+  <img src="images/eroi_post.jpeg" alt="Energy system modelling for New Zealand" class="case-image"/>
+
+  <h3>Energy system modelling for New Zealand</h3>
+
+  <p>Developing a Bayesian modelling framework with Whirika Consulting to estimate Energy Return on Investment (EROI) across New Zealand’s energy technologies, helping support long-term planning and evidence-based energy transition decisions.</p>
+
+  <p><a href="https://www.linkedin.com/posts/southern-clarity-nz_were-helping-change-how-aotearoa-thinks-activity-7434766845351653376-h8cv?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEV75U4BMrAtWXU4q181GGaTRUVxcjTrtwI" target="_blank" rel="noopener noreferrer">View LinkedIn post →</a></p>
+</div>
+
+<div class="case-card">
+  <img src="images/hoiho_post.jpeg" alt="Yellow-eyed penguin population modelling" class="case-image"/>
+
+  <h3>Yellow-eyed penguin population modelling</h3>
+
+  <p>Developed a Bayesian modelling framework for the Department of Conservation to estimate hoiho breeding population size by integrating camera observations, landing-point surveys, and expert knowledge while accounting for imperfect detection.</p>
+
+  <p><a href="https://www.linkedin.com/posts/southern-clarity-nz_southern-clarity-nz-is-helping-the-department-activity-7429261331276509184-LLyq?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEV75U4q181GGaTRUVxcjTrtwI" target="_blank" rel="noopener noreferrer">View LinkedIn post →</a></p>
+</div>
+
+<div class="case-card">
+  <img src="images/post_jan_2026_2_qgis_workshop.jpeg" alt="QGIS workshop with Trap and Trigger Ltd" class="case-image"/>
+
+  <h3>QGIS workshop for Trap &amp; Trigger Ltd</h3>
+
+  <p>Built reusable mapping workflows for operational teams, including data import standards, geoprocessing patterns, and export-ready outputs to reduce repeated manual steps.</p>
+
+  <p><a href="https://www.linkedin.com/posts/southern-clarity-nz_in-a-recent-hands-on-qgis-workshop-with-the-activity-7421274186452467712-lDe5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEX2XBgBSKZE8R4cwRq-NoJ4vNfwr0Y45YI" target="_blank" rel="noopener noreferrer">View LinkedIn post →</a></p>
+</div>
+
+<div class="case-card">
+  <img src="images/post_jan_2026_1_kaki_1.jpg" alt="Kakī population modelling support" class="case-image"/>
+
+  <h3>Kakī population modelling for the Department of Conservation</h3>
+
+  <p>Developed an integrated modelling framework to support long-term planning, quantify uncertainty, and identify where management effort can have the greatest impact.</p>
+
+  <p><a href="https://www.linkedin.com/posts/southern-clarity-nz_stefan-recently-had-the-opportunity-to-visit-activity-7418724129924685824-IL-B?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEX2XBgBSKZE8R4cwRq-NoJ4vNfwr0Y45YI" target="_blank" rel="noopener noreferrer">View LinkedIn post →</a></p>
+</div>
+
+</div>
+
+<button class="carousel-button carousel-button-next" aria-label="Next projects">
+›
+</button>
+
+</div>
 :::
 
-::: {.case-card}
-<img src="images/post_jan_2026_1_kaki_1.jpg" alt="Kaki population modelling support" class="case-image">
 
-### [Kakī population modelling for the Department of Conservation](https://www.linkedin.com/posts/southern-clarity-nz_stefan-recently-had-the-opportunity-to-visit-activity-7418724129924685824-IL-B?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEX2XBgBSKZE8R4cwRq-NoJ4vNfwr0Y45YI){.case-title-link} <a href="https://www.linkedin.com/posts/southern-clarity-nz_stefan-recently-had-the-opportunity-to-visit-activity-7418724129924685824-IL-B?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEX2XBgBSKZE8R4cwRq-NoJ4vNfwr0Y45YI" class="case-title-icon" target="_blank" rel="noopener noreferrer" aria-label="Open LinkedIn post"><i class="bi bi-link-45deg" aria-hidden="true"></i></a>
-Developed an integrated modelling framework to support long-term planning, quantify uncertainty, and identify where management effort can have the greatest impact. [Read more](https://www.linkedin.com/posts/southern-clarity-nz_stefan-recently-had-the-opportunity-to-visit-activity-7418724129924685824-IL-B?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEX2XBgBSKZE8R4cwRq-NoJ4vNfwr0Y45YI){.button .case-read-more target="_blank" rel="noopener noreferrer"}
-:::
-:::
+:::::::: {#philosophy .section .container}
+## Why Southern Clarity
+
+::: section-intro
+Clarity, rigour, and client ownership are central to every engagement.
 :::
 
-::: {.section .container #who-we-are}
+:::::: template-grid
+::: template-card
+### Client ownership
+
+You retain full ownership of your data, code, and tools.
+:::
+
+::: template-card
+### Transparent methods
+
+Approaches are documented, reproducible, and easy to communicate to technical and non-technical audiences.
+:::
+
+::: template-card
+### Decision-ready outputs
+
+Deliverables are designed to support real decisions, not just static analysis reports.
+:::
+::::::
+::::::::
+
+:::: {#who-we-are .section .container}
 ## Who we are
 
-Southern Clarity NZ was co-founded in 2025. Our work is led by strong applied consulting experience in statistical modelling, decision support, and production-ready analytical tool development.
+Southern Clarity NZ was co-founded by [Stefan Meyer](https://www.linkedin.com/in/stefan-meyer-4ba4a6286/){target="_blank"} and [Anthony Davidson](https://www.linkedin.com/in/anthony-davidson-b88116289/){target="_blank"} in 2025. The company helps organisations turn complex data into clear evidence for decision-making through rigorous statistical modelling and practical analytical tools.
 
-Stefan brings 9+ years of consulting and delivery experience across government and industry contexts, with specialist capability in Bayesian modelling, advanced statistical analysis, and reproducible workflow design.
+Stefan Meyer brings more than nine years of consulting and project delivery experience across government, research, and industry. His work focuses on Bayesian modelling, advanced statistical analysis, and the development of reproducible analytical systems for complex monitoring and spatial data. He holds a PhD in Ecology from the University of Otago, where his research focused on statistical methods for analysing complex natural systems.
 
-::: {.tool-list}
-**Core tools:** R, QGIS, GitHub, Docker, and carefully applied AI-assisted tooling where it improves delivery quality and scalability.
-:::
-:::
+Anthony Davidson combines a background in ecology with strong quantitative and technical expertise. He holds a Master’s degree in Ecology from the University of Otago and is also a registered mathematics teacher. At Southern Clarity NZ, Anthony focuses on analytical tool development, data systems, and AI-assisted workflows.
+
+Together, Stefan and Anthony build analytical systems that are transparent, reproducible, and designed for long-term use by the organisations that rely on them.
+
+::::
+
+```{=html}
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const track = document.getElementById("selected-work-track");
+  const prev = document.querySelector(".carousel-button-prev");
+  const next = document.querySelector(".carousel-button-next");
+
+  if (!track || !prev || !next) return;
+
+  const cards = track.querySelectorAll(".case-card");
+
+  function getCardWidth() {
+    const firstCard = cards[0];
+    const gap = 16; // must match CSS gap
+    return firstCard.getBoundingClientRect().width + gap;
+  }
+
+  function maxScroll() {
+    return track.scrollWidth - track.clientWidth;
+  }
+
+  prev.addEventListener("click", function () {
+
+    if (track.scrollLeft <= 0) {
+      track.scrollTo({
+        left: maxScroll(),
+        behavior: "smooth"
+      });
+    } else {
+      track.scrollBy({
+        left: -getCardWidth(),
+        behavior: "smooth"
+      });
+    }
+
+  });
+
+  next.addEventListener("click", function () {
+
+    if (track.scrollLeft >= maxScroll() - 5) {
+      track.scrollTo({
+        left: 0,
+        behavior: "smooth"
+      });
+    } else {
+      track.scrollBy({
+        left: getCardWidth(),
+        behavior: "smooth"
+      });
+    }
+
+  });
+
+});
+</script>
+```
